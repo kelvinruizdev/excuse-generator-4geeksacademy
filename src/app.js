@@ -37,9 +37,8 @@ function excuseGenerator() {
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
   //console.log(excuseGenerator());
   //Muestra la excusa generada en el html
-  var objetivo = document.getElementById("rigo_excuse");
+  var objetivo = document.getElementById("excuse");
   objetivo.innerHTML = excuseGenerator();
 };
