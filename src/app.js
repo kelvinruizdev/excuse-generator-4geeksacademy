@@ -20,7 +20,7 @@ let when = [
 
 function excuseGenerator() {
   excuse = who[Math.floor(Math.random() * who.length + 1)] + " ";
-  //console.log(who.length);
+
   excuse += action[Math.floor(Math.random() * action.length + 1)] + " ";
 
   excuse += what[Math.floor(Math.random() * what.length + 1)] + " ";
