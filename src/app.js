@@ -19,13 +19,13 @@ let when = [
 ];
 
 function excuseGenerator() {
-  excuse = who[Math.floor(Math.random() * who.length + 1)] + " ";
+  excuse = who[Math.floor(Math.random() * who.length)] + " ";
+  console.log(Math.floor(Math.random() * who.length));
+  excuse += action[Math.floor(Math.random() * action.length)] + " ";
 
-  excuse += action[Math.floor(Math.random() * action.length + 1)] + " ";
+  excuse += what[Math.floor(Math.random() * what.length)] + " ";
 
-  excuse += what[Math.floor(Math.random() * what.length + 1)] + " ";
-
-  excuse += when[Math.floor(Math.random() * when.length + 1)] + ".";
+  excuse += when[Math.floor(Math.random() * when.length)] + ".";
 
   //Se usa la funcion array.length para generar
   //un numero aleatorio que comprenda el numero
